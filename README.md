@@ -7,5 +7,5 @@ Kohns, D., & Szendrei, T. (2020). Horseshoe prior Bayesian quantile regression. 
 -----
 
 The important codes are in the root directory, and the "functions" directory
-*  HSBQR.m is the main function that you will need if you'd like to use the method.
+*  HSBQR.m (or HSBQR.R) is the main function that you will need if you'd like to use the method.
 *  MC_example.m shows how to setup the Monte-Carlo experiments done in the paper, and run the HSBQR on one of experiments (This code uses the files in the MC directory too)
