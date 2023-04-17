@@ -9,7 +9,7 @@ Kohns, D., & Szendrei, T. (2020). Horseshoe prior Bayesian quantile regression. 
 The important codes are in the root directory, and the "functions" directory
 *  HSBQR.m (or HSBQR.R) is the main function that you will need if you'd like to use our method.
 *  MC_example.m shows how to setup the Monte-Carlo experiments done in the paper, and run the HSBQR on one of experiments (This code uses the files in the MC directory too)
-*  GaR_example.m shows how to setup the empirical application as done in the paper, and run the HSBQR with iterative expanding sample sizes. Please note that macroeconomic data can undergo heavy revision over time so that your empirical results might vary. 
+*  GaR_example.m shows how to setup the empirical application as done in the paper, and run the HSBQR with iterative expanding sample sizes. Please note that macroeconomic data can undergo heavy revision over time, so your empirical results might vary. 
 
 -----
 
