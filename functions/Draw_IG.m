@@ -1,4 +1,10 @@
 function y = Draw_IG(mu,lambda)
+
+% Support function for horseshoe prior Bayesian quantile Regression (2020)
+%
+% See:
+% Kohns, D.E. and Szendrei, T. (2020). Horseshoe Prior Bayesian Quantile Regression, arXiv preprint arXiv:2006.07655
+
 % Generate a draw from the Inverse Gaussian (Wald) distribution
 %----------------------------------------------------------------
 % This method is from

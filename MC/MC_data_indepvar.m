@@ -1,4 +1,11 @@
 function [eps,beta, X]=MC_data_indepvar(T,beta_sparse,rho,error_struct)
+
+% Support function for horseshoe prior Bayesian quantile Regression (2020)
+%
+% See:
+% Kohns, D.E. and Szendrei, T. (2020). Horseshoe Prior Bayesian Quantile Regression, arXiv preprint arXiv:2006.07655
+
+
 % MC_data_indepvar Monte Carlo independent data generation (primarily) for 
 % quantile regression
 %

@@ -1,3 +1,19 @@
+% This is the main run file for the empirical application of the HS-BQR
+% Model "Horseshoe Prior Bayesian Quantile Regression" by D. Kohns and T.
+% Szendrei (2020)
+%
+% This code is free to use for academic purposes only, provided that the 
+% paper is cited as:
+%
+% Kohns, D.E. and Szendrei, T. (2020). Horseshoe Prior Bayesian Quantile Regression, arXiv preprint arXiv:2006.07655
+%
+% This code comes without technical support of any kind. It is expected to
+% reproduce the results reported in the paper. Under no circumstances will
+% the authors be held responsible for any use (or misuse) of this code in
+% any way.
+
+
+
 clear all
 clc
 

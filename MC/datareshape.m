@@ -1,4 +1,10 @@
 function [output] = datareshape(data,datasize)
+
+% Support function for horseshoe prior Bayesian quantile Regression (2020)
+%
+% See:
+% Kohns, D.E. and Szendrei, T. (2020). Horseshoe Prior Bayesian Quantile Regression, arXiv preprint arXiv:2006.07655
+
 if rem(datasize,100)>0
     disp('Please choose a datasize divisible by 100')
     return

@@ -1,4 +1,11 @@
 function [data_het,data_nohet,eps,beta]=datagen_func(Sparse_type,datasize)
+% Support function for horseshoe prior Bayesian quantile Regression (2020)
+%
+% See:
+% Kohns, D.E. and Szendrei, T. (2020). Horseshoe Prior Bayesian Quantile Regression, arXiv preprint arXiv:2006.07655
+
+
+
 %Sparse_type='sparse','dense','block'
 
 %% Monte Carlo Settings
